@@ -363,62 +363,7 @@ Speech Disorder: ${demographics.speechDisorder}
                                 </ul>
                             </div>
 
-                            <div className="mt-8 bg-slate-700/50 rounded-xl p-6 border border-slate-600">
-                                <h2 className="text-xl font-semibold mb-4 text-blue-300"><i className="fas fa-user-circle mr-2"></i>Demographic Questionnaire</h2>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">Participant ID / Code (Required)*</label>
-                                        <input type="text" name="participantId" value={demographics.participantId} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500" placeholder="e.g. P001" required />
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">Year of Birth</label>
-                                        <input type="text" name="birthYear" value={demographics.birthYear} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500" placeholder="YYYY" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">Gender</label>
-                                        <select name="gender" value={demographics.gender} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500">
-                                            <option value="">Select...</option>
-                                            <option value="Male">Male</option>
-                                            <option value="Female">Female</option>
-                                            <option value="Prefer not to say">Prefer not to say</option>
-                                        </select>
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">Armenian Dialect</label>
-                                        <select name="dialect" value={demographics.dialect} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500">
-                                            <option value="">Select...</option>
-                                            <option value="Eastern">Eastern (e.g. Armenia, Iran)</option>
-                                            <option value="Western">Western (e.g. Lebanon, Syria)</option>
-                                        </select>
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">City / Town of Origin</label>
-                                        <input type="text" name="city" value={demographics.city} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500" placeholder="e.g. Yerevan" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">Country of Origin</label>
-                                        <input type="text" name="country" value={demographics.country} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500" placeholder="e.g. Armenia" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">Native Language(s)</label>
-                                        <input type="text" name="nativeLanguage" value={demographics.nativeLanguage} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500" placeholder="e.g. Armenian" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">Other Languages Spoken</label>
-                                        <input type="text" name="otherLanguages" value={demographics.otherLanguages} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500" placeholder="e.g. English, Russian" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">Years living outside home region</label>
-                                        <input type="number" name="yearsOutside" value={demographics.yearsOutside} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500" placeholder="e.g. 5" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-sm text-slate-300 mb-1">History of speech/hearing disorders?</label>
-                                        <select name="speechDisorder" value={demographics.speechDisorder} onChange={handleDemoChange} className="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500">
-                                            <option value="">Select...</option>
-                                            <option value="No">No</option>
-                                            <option value="Yes">Yes</option>
-                                        </select>
-                                    </div>
+           
                                 </div>
                             </div>
                         </div>
