@@ -1,0 +1,7 @@
+title: Armenian Phonology Survey
+description: A survey of Armenian phonology
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-feed
